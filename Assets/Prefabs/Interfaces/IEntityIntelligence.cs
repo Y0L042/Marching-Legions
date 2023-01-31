@@ -4,6 +4,5 @@ using UnityEngine;
 
 public interface IEntityIntelligence
 {
-    Vector3 MoveDirectionOutput{ get; set;}
 
 }
