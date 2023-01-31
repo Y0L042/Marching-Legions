@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine.InputSystem;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour, IEntityIntelligence
+public class PlayerInputLogic : MonoBehaviour, IEntityIntelligence
 {
 
     private Rigidbody _rigidBody;

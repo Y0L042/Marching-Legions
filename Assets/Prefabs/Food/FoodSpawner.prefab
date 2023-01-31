@@ -24,7 +24,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2996100990937656333}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -44,7 +44,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd44976591ce6fd4ea1213a51d042c53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _objectToSpawn: {fileID: 0}
+  _foodObjectsParent: {fileID: 0}
+  _objectsToSpawn:
+  - {fileID: 1074989741269018640, guid: 460c9d5c4f78c8a4cb519c200a1f484a, type: 3}
   _spawnTargetSurface: {fileID: 0}
-  _spawnInterval: 10
+  _spawnInterval: 0.5
   _maxObjects: 100
