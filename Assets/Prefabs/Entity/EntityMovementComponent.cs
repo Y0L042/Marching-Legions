@@ -32,29 +32,19 @@ public class EntityMovementComponent : MonoBehaviour
 
     void Start()
     {
-        _entityIntelligence = gameObject.GetComponent<IEntityIntelligence>();
-        if (_entityIntelligence == null) Debug.Log("EntityIntelligence is empty: " + gameObject);
         _rb = GetComponent<Rigidbody>();
+        if (_rb == null) Debug.Log("Rigidbody is empty: " + gameObject);
     }
 
 
-    void FixedUpdate()
-    {
-        Vector3 movementDirectionVector;
-        if (_entityIntelligence != null)
-        {
-            movementDirectionVector = _entityIntelligence.MoveDirectionOutput;
-            MoveBody(movementDirectionVector);
-        }
-        
-        
-    }
 
     public void MoveBody(Vector3 input)
     {
+        if (_rb == null) return;
+
         Vector3 targetVelocity = (_maxSpeed * input) - Velocity;
         Velocity = Vector3.SmoothDamp(Velocity, targetVelocity, ref _smoothInputVelocity, 1/_acceleration);
         Vector3 newPosition =  transform.position + Velocity * Time.deltaTime;
-        _rb.MovePosition(newPosition);
+        _rb.MovePosition(newPosition);  
     }
 }

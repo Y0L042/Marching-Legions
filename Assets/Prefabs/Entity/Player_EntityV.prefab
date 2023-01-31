@@ -76,6 +76,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _input: {x: 0, y: 0, z: 0}
   _perspectiveAngleOffset: 45
+  _movementComponent: {fileID: 1639085609737547294}
 --- !u!114 &8696015512394746903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -106,3 +107,14 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &1639085609737547294 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8289924968846482009, guid: 546e3a9774a07b8468e4ed732780319e, type: 3}
+  m_PrefabInstance: {fileID: 7328633658542142535}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639085609737547270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 086a45c378758c14290b51c18dc746e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -5,10 +5,6 @@ using UnityEngine;
 
 public class PlayerInputLogic : MonoBehaviour, IEntityIntelligence
 {
-
-    private Rigidbody _rigidBody;
-
-
     [SerializeField]
     private Vector3 _input = new Vector3(0f, 0f, 0f);
   
@@ -16,23 +12,33 @@ public class PlayerInputLogic : MonoBehaviour, IEntityIntelligence
     [SerializeField][Tooltip("The angle the camera is rotated around the Y-axis in degrees. 0deg for top down, 45deg for isometric")]
     float _perspectiveAngleOffset;
 
-	Vector3 IEntityIntelligence.MoveDirectionOutput 
+	public Vector3 MoveDirectionOutput 
     { 
         get
         { 
             Vector3 inputVector = RotateVector(_input, _perspectiveAngleOffset);
             return inputVector;
         }
-        set
-        {
-            _input = value;
-        }
+        set{ _input = value;}
     }
+
+    Rigidbody _rigidBody;
+    [SerializeField][Tooltip("Adds the functionality to move the entity.")]
+    EntityMovementComponent _movementComponent;
+
+
 
 
     void Start()
     {
         _rigidBody = this.GetComponent<Rigidbody>();
+    }
+
+
+
+    void FixedUpdate()
+    {
+        if (_movementComponent != null) _movementComponent.MoveBody(MoveDirectionOutput);
     }
 
     Vector3 RotateVector(Vector3 vector, float angle)
