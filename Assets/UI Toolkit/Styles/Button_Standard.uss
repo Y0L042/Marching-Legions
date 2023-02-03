@@ -4,11 +4,11 @@
     background-color: rgba(17, 19, 23, 255);
     -unity-text-align: middle-center;
     border-top-left-radius: 1px;
-    border-bottom-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
     border-bottom-right-radius: 1px;
-    border-left-color: rgba(31, 110, 119, 255);
-    border-right-color: rgba(31, 110, 119, 255);
+    border-left-color: rgba(28, 100, 109, 255);
+    border-right-color: rgba(39, 137, 148, 255);
     border-top-color: rgba(39, 137, 148, 255);
     border-bottom-color: rgba(28, 100, 109, 255);
     border-left-width: 4px;
@@ -19,4 +19,14 @@
     margin-right: 15%;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
+    color: rgba(209, 209, 209, 255);
+    -unity-text-outline-width: 1px;
+}
+
+.button_Standard:hover {
+    background-color: rgba(31, 110, 119, 255);
+}
+
+.button_Standard:active {
+    background-color: rgba(26, 30, 36, 255);
 }

@@ -1,5 +1,7 @@
 .label_Title {
-    font-size: 46px;
-    -unity-text-align: middle-center;
+    font-size: 72px;
     -unity-font-style: bold;
+    color: rgba(209, 209, 209, 255);
+    -unity-text-outline-width: 2px;
+    -unity-text-align: middle-center;
 }
