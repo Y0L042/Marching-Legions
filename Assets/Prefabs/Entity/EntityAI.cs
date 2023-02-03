@@ -9,6 +9,7 @@ public class EntityAI : MonoBehaviour, IEntityIntelligence
 
     [SerializeField][Tooltip("Adds the functionality to move the entity.")]
     EntityMovementComponent _movementComponent;
+    EntityVisionComponent _visionComponent;
 
     void FixedUpdate()
     {

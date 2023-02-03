@@ -164,6 +164,7 @@ MonoBehaviour:
   _scale: 1
   _scaleCoef: 7.5
   _scaleCurve: 10
+  _entityBoundary: {fileID: 8289924969347489446}
 --- !u!136 &8289924968846482013
 CapsuleCollider:
   m_ObjectHideFlags: 0

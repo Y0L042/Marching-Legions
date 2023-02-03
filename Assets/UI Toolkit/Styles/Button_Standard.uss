@@ -1,0 +1,22 @@
+.button_Standard {
+    font-size: 32px;
+    -unity-font-style: bold;
+    background-color: rgba(17, 19, 23, 255);
+    -unity-text-align: middle-center;
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 1px;
+    border-left-color: rgba(31, 110, 119, 255);
+    border-right-color: rgba(31, 110, 119, 255);
+    border-top-color: rgba(39, 137, 148, 255);
+    border-bottom-color: rgba(28, 100, 109, 255);
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
