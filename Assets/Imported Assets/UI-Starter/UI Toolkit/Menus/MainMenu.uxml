@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Imported%20Assets/UI-Starter/UI%20Toolkit/Styles/Label_Titles.uss?fileID=7433441132597879392&amp;guid=bd5913c1e5d6cf442a883493d3e22166&amp;type=3#Label_Titles" />
+    <Style src="project://database/Assets/Imported%20Assets/UI-Starter/UI%20Toolkit/Styles/Button_Standard.uss?fileID=7433441132597879392&amp;guid=ecf9d53dd98eba34494f6ed4ab438bb3&amp;type=3#Button_Standard" />
+    <ui:VisualElement name="Background" style="flex-direction: row; flex-grow: 1;">
+        <ui:VisualElement name="SidePanel" style="align-items: stretch; justify-content: center; width: 30%; background-color: rgba(0, 0, 0, 0.69);">
+            <ui:Label text="Main Menu" display-tooltip-when-elided="true" name="MM_Title" class="label_Title" />
+            <ui:Button text="Play" display-tooltip-when-elided="true" name="MM_PlayGame" class="button_Standard" />
+            <ui:Button text="Settings" display-tooltip-when-elided="true" name="MM_Settings" class="button_Standard" />
+            <ui:Button text="Quit" display-tooltip-when-elided="true" name="MM_Quit" class="button_Standard" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

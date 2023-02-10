@@ -1,0 +1,24 @@
+{
+  "name": "com.twyfel.uistarter",
+  "version": "1.0.0",
+  "displayName": "UI Starter",
+  "description": "This is a starter UI template, made with the Unity UIToolkit.",
+  "unity": "2021.3",
+  "unityRelease": "16f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "dependencies": {
+    "com.unity.ui": "1.0.0"
+ },
+ "keywords": [
+    "UI",
+    "template",
+    "starter"
+  ],
+  "author": {
+    "name": "Twyfel",
+    "email": "twyfelmedia@gmail.com",
+    "url": "https://www.twyfel.com"
+  }
+}

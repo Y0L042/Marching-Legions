@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/Button_Standard.uss?fileID=7433441132597879392&amp;guid=0a0acfceb4276004aa56ac7d6ac54976&amp;type=3#Button_Standard" />
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/Label_Titles.uss?fileID=7433441132597879392&amp;guid=f14fcc5943b27b64a86049c3865afee9&amp;type=3#Label_Titles" />
+</ui:UXML>
